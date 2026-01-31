@@ -30,3 +30,4 @@ Gene expression data:[TCGA-LIHC STAR-aligned gene-level RNA-seq data](https://gd
 Clinical Survival data: [TCGA-LIHC clinical survival data](https://xenabrowser.net/datapages/?dataset=TCGA-LIHC.survival.tsv&host=https%3A%2F%2Fgdc.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
 ## How to Run
 Run the pipeline sequentially from top to bottom.
+AI_PIPELINE.py
