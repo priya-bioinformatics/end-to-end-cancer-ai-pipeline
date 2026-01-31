@@ -8,17 +8,25 @@ The pipeline covers:
 - Survival analysis using gene-level and latent features
 - Deep learning–based representation learning
 ## Features
-- RNA-seq data preprocessing
-- XGBoost classification with Optuna hyperparameter tuning
-- Model evaluation using:
-- ROC-AUC
-- Calibration curve
-- Brier score
-- Explainable AI using SHAP
-- Gene-based survival analysis:
-- Cox proportional hazards model
-- Kaplan–Meier analysis
-- Autoencoder-based latent space survival modeling
+### Machine Learning
+- RNA-seq data preprocessing  
+- XGBoost classification with Optuna hyperparameter tuning  
+
+### Model Evaluation
+- ROC-AUC  
+- Calibration curve  
+- Brier score  
+
+### Explainable AI
+- SHAP-based model interpretation  
+
+### Survival Analysis
+- Cox proportional hazards model  
+- Kaplan–Meier survival analysis  
+
+### Deep Learning
+- Autoencoder-based latent space survival modeling  
+
 ## Dataset
 Total samples: 424
 Tumor: 371
@@ -30,4 +38,5 @@ Gene expression data:[TCGA-LIHC STAR-aligned gene-level RNA-seq data](https://gd
 Clinical Survival data: [TCGA-LIHC clinical survival data](https://xenabrowser.net/datapages/?dataset=TCGA-LIHC.survival.tsv&host=https%3A%2F%2Fgdc.xenahubs.net&removeHub=https%3A%2F%2Fxena.treehouse.gi.ucsc.edu%3A443)
 ## How to Run
 Run the pipeline sequentially from top to bottom:
-AI_PIPELINE.py
+```bash
+python AI_PIPELINE.py
