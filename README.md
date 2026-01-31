@@ -3,22 +3,22 @@ An end-to-end machine learning and survival analysis pipeline for TCGA-LIHC RNA-
 ## Overview
 This project implements a complete computational pipeline for analyzing liver cancer (LIHC) using RNA-seq gene expression and clinical survival data.
 The pipeline covers:
--Tumor vs Normal classification
--Explainable AI for model interpretability
---Survival analysis using gene-level and latent features
--Deep learning–based representation learning
+- Tumor vs Normal classification
+- Explainable AI for model interpretability
+- Survival analysis using gene-level and latent features
+- Deep learning–based representation learning
 ## Features
--RNA-seq data preprocessing
--XGBoost classification with Optuna hyperparameter tuning
--Model evaluation using:
--ROC-AUC
--Calibration curve
--Brier score
--Explainable AI using SHAP
--Gene-based survival analysis:
--Cox proportional hazards model
--Kaplan–Meier analysis
--Autoencoder-based latent space survival modeling
+- RNA-seq data preprocessing
+- XGBoost classification with Optuna hyperparameter tuning
+- Model evaluation using:
+- ROC-AUC
+- Calibration curve
+- Brier score
+- Explainable AI using SHAP
+- Gene-based survival analysis:
+- Cox proportional hazards model
+- Kaplan–Meier analysis
+- Autoencoder-based latent space survival modeling
 ## Dataset
 Total samples: 424
 Tumor: 371
